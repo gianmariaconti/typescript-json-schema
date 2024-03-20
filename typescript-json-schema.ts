@@ -1139,7 +1139,7 @@ export class JsonSchemaGenerator {
                     }
                     const indexSymbol: ts.Symbol = (<any>indexSignature.parameters[0]).symbol;
                     const indexType = this.tc.getTypeOfSymbolAtLocation(indexSymbol, node);
-                    const isIndexedObject = indexType.flags === ts.TypeFlags.String || indexType.flags === ts.TypeFlags.Number;
+                    const isIndexedObject = indexType.flags === ts.TypeFlags.String || indexType.flags === ts.TypeFlags.Number || indexType.flags === ts.TypeFlags.TemplateLiteral ;
                     if (indexType.flags !== ts.TypeFlags.Number && !isIndexedObject) {
                         throw new Error(
                             "Not supported: IndexSignatureDeclaration with index symbol other than a number or a string"
