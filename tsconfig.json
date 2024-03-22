@@ -28,7 +28,8 @@
         "node_modules",
         "example",
         "test/programs",
-        "dist"
+        "dist",
+        "test"
     ],
     "compileOnSave": true,
     "buildOnSave": false
