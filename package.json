@@ -47,14 +47,14 @@
     "path-equal": "^1.2.5",
     "safe-stable-stringify": "^2.2.0",
     "ts-node": "^10.9.1",
-    "typescript": "~5.1.0",
+    "typescript": "~5.4.5",
     "yargs": "^17.1.1"
   },
   "devDependencies": {
     "@types/chai": "^4.2.21",
     "@types/glob": "^7.1.4",
     "@types/mocha": "^9.0.0",
-    "ajv": "^8.6.3",
+    "ajv": "^8.13.0",
     "ajv-formats": "^2.1.1",
     "chai": "^4.3.4",
     "mocha": "^9.1.3",
