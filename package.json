@@ -42,8 +42,8 @@
   ],
   "dependencies": {
     "@types/json-schema": "^7.0.9",
-    "@types/node": "^20.12.10",
-    "glob": "^7.2.3",
+    "@types/node": "^22.7.4",
+    "glob": "^11.0.0",
     "path-equal": "^1.2.5",
     "safe-stable-stringify": "^2.2.0",
     "ts-node": "^10.9.1",
@@ -51,8 +51,8 @@
     "yargs": "^17.1.1"
   },
   "devDependencies": {
-    "@types/chai": "^4.2.21",
-    "@types/glob": "^7.2.0",
+    "@types/chai": "^5.0.0",
+    "@types/glob": "^8.1.0",
     "@types/mocha": "^10.0.6",
     "ajv": "^8.13.0",
     "ajv-formats": "^3.0.1",
